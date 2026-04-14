@@ -28,8 +28,7 @@ def extract_pdf_text(pdf_file):
         text += page.extract_text()
 
     return text
-
-
+ 
 # -----------------------------
 # Clean text
 # -----------------------------
